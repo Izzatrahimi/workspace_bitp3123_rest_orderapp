@@ -14,17 +14,17 @@ public class ProductType {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column (name="productTypeId")
-	private int ProductTypeId;
+	private int productTypeId;
 	
 	@Column (name="name")
 	private String name;
 	
 	public int getProductTypeId() {
-		return ProductTypeId;
+		return productTypeId;
 	}
 	
 	public void setproductTypeId(int productTypeId) {
-		ProductTypeId = productTypeId;
+		this.productTypeId = productTypeId;
 	}
 	
 	public String getName() {

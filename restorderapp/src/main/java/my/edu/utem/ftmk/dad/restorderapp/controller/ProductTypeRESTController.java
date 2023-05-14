@@ -62,13 +62,7 @@ public class ProductTypeRESTController {
     	return new ResponseEntity<>(HttpStatus.OK);
     }
 	
-	
-	
-	
-	
-	
-	
-	
+
 }
 	
 	
